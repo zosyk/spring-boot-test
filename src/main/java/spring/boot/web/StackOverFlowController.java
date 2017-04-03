@@ -24,10 +24,10 @@ public class StackOverFlowController {
     @Autowired
     StackOverflowService stackOverflowService;
 
-    @RequestMapping("/hello-world")
+    @RequestMapping("/sites")
     public String helloWorld() {
 
-        return "hello-world";
+        return "sites";
     }
 
     @RequestMapping("/stackoverflow")
