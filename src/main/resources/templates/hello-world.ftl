@@ -25,7 +25,7 @@
                         </thead>
                         <tbody>
                         <tr ng-repeat="site in websites">
-                            <td>dsf </td>
+                            <td><img src="{{site.iconImageUrl}}"</td>
                             <td>{{site.id}}</td>
                             <td>{{site.website}}</td>
                             <td>{{site.title}}</td>
